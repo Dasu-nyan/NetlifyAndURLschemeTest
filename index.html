@@ -1,0 +1,15 @@
+<body>
+    <h1>URLスキーマのテスト</h1>
+    <h2>動作しない想定</h2>
+    <a href="safari:https://www.google.co.jp">safari:https://www.google.co.jp</a><br />
+    <a href="safari://www.google.co.jp">safari://www.google.co.jp</a><br />
+    <a href="x-web-search:https://www.google.co.jp">x-web-search:https://www.google.co.jp</a><br />
+    <a href="x-web-search://www.google.co.jp">x-web-search://www.google.co.jp</a><br />
+    <a href="chrome:https://www.google.co.jp">chrome:https://www.google.co.jp</a><br />
+    <a href="chrome://www.google.co.jp">chrome://www.google.co.jp</a><br />
+
+    <h2>動作する想定（2025/02/28時点）</h2>
+    <a href="x-safari-search://www.google.co.jp">x-safari-search://www.google.co.jp</a><br />
+    <a href="googlechrome://www.google.co.jp">googlechrome://www.google.co.jp</a><br />
+    <a href="googlechromes://www.google.co.jp">googlechrome://www.google.co.jp</a><br />
+</body>
