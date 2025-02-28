@@ -16,3 +16,13 @@
 ```sh
 git clone https://github.com/Dasu-nyan/NetlifyAndURLschemeTest.git
 cd your-repository
+```
+
+ブラウザで index.html を開けばOKです。
+
+## 🚀 デプロイ
+このプロジェクトはGitHubとNetlifyを連携しており、main ブランチにプッシュすると自動的にデプロイされます。
+(数秒で連携されるらしい)
+
+## 📜 ライセンス
+MIT License

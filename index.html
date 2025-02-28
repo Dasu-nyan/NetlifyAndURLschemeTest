@@ -1,15 +1,31 @@
-<body>
-    <h1>URLスキーマのテスト</h1>
-    <h2>動作しない想定</h2>
-    <a href="safari:https://www.google.co.jp">safari:https://www.google.co.jp</a><br />
-    <a href="safari://www.google.co.jp">safari://www.google.co.jp</a><br />
-    <a href="x-web-search:https://www.google.co.jp">x-web-search:https://www.google.co.jp</a><br />
-    <a href="x-web-search://www.google.co.jp">x-web-search://www.google.co.jp</a><br />
-    <a href="chrome:https://www.google.co.jp">chrome:https://www.google.co.jp</a><br />
-    <a href="chrome://www.google.co.jp">chrome://www.google.co.jp</a><br />
+<!DOCTYPE html>
+<html lang="ja">
 
-    <h2>動作する想定（2025/02/28時点）</h2>
-    <a href="x-safari-https://www.google.co.jp">x-safari-search://www.google.co.jp</a><br />
-    <a href="googlechrome://www.google.co.jp">googlechrome://www.google.co.jp</a><br />
-    <a href="googlechromes://www.google.co.jp">googlechrome://www.google.co.jp</a><br />
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>URLスキーマのテスト</title>
+        <meta property="og:title" content="URLスキーマのテスト">
+        <meta property="og:description" content="URLスキーマの動作確認を行うだけの簡単なサイトです。">
+        <meta property="og:url" content="https://jade-genie-6afd66.netlify.app/"> <!-- あなたのNetlify URLに変更 -->
+        <meta property="og:type" content="website">
+        <!-- <meta property="og:image" content="https://your-site.netlify.app/og-image.png"> !-- 任意の画像 -->
+    </head>
+
+    <body>
+        <h1>URLスキーマのテスト</h1>
+        <h2>動作しない想定</h2>
+        <a href="safari:https://www.google.co.jp">safari:https://www.google.co.jp</a><br />
+        <a href="safari://www.google.co.jp">safari://www.google.co.jp</a><br />
+        <a href="x-web-search:https://www.google.co.jp">x-web-search:https://www.google.co.jp</a><br />
+        <a href="x-web-search://www.google.co.jp">x-web-search://www.google.co.jp</a><br />
+        <a href="chrome:https://www.google.co.jp">chrome:https://www.google.co.jp</a><br />
+        <a href="chrome://www.google.co.jp">chrome://www.google.co.jp</a><br />
+
+        <h2>動作する想定（2025/02/28時点）</h2>
+        <a href="x-safari-https://www.google.co.jp">x-safari-https://www.google.co.jp</a><br />
+        <a href="googlechrome://www.google.co.jp">googlechrome://www.google.co.jp</a><br />
+        <a href="googlechromes://www.google.co.jp">googlechrome://www.google.co.jp</a><br />
+    </body>
+
+</html>
