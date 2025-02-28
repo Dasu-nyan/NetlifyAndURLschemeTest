@@ -3,7 +3,7 @@
 このプロジェクトは、シンプルな静的サイトをNetlifyでホスティングするためのサンプルです。
 
 ## 🔗 デモURL
-[Live Site](https://your-site-name.netlify.app)
+[Live Site](https://jade-genie-6afd66.netlify.app/)
 
 ## 📌 使用技術
 - HTML
